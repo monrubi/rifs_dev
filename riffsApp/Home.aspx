@@ -21,6 +21,7 @@
         </nav>
     </header>
     <div class="fondo wrapper">
+        <h1>Home</h1>
         <img source="https://www.bienesonline.com/mexico/photos/venta-de-departamento-en-alvaro-obregon-14815894820.jpg"></img>
     </div>
     </form>

@@ -19,7 +19,8 @@
                 <a href="Contacto.aspx">Contacto</a>
             </nav>
         </header>
-        <div>
+        <div class="wrapper">
+            <h1>Renta tu espacio</h1>
         </div>
     </form>
 </body>

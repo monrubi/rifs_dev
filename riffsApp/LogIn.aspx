@@ -20,7 +20,14 @@
             </nav>
         </header>
         <div class="wrapper">
-        
+            <div class="cuadroLog">
+                <asp:Label ID="lbAviso" runat="server" Text=""></asp:Label>
+                <p class="child">Nombre de Usurio  
+                    <input id="txtNombre" type="text" size="30" runat="server"/></p>
+                <p class="child">Contraseña  
+                    <input id="pwContra" type="password" size="30" runat="server" /></p>    
+                <asp:Button ID="btEntrar" runat="server" Text="Entrar" OnClick="btEntrar_Click"/>
+            </div>
         </div>
     </form>
 </body>

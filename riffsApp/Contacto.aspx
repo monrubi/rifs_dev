@@ -19,7 +19,8 @@
                 <a href="LogIn.aspx">Log In</a>
             </nav>
         </header>
-        <div>
+        <div class="wrapper">
+            <h1>Contacto</h1>
         </div>
     </form>
 </body>

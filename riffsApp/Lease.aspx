@@ -20,7 +20,7 @@
             </nav>
         </header>
         <div class="fondo wrapper">
-       
+            <h1>Ofrece un espacio</h1>
         </div>
     </form>
 </body>

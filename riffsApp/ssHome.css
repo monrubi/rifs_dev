@@ -48,3 +48,16 @@ header nav a:hover {
     background: #ef6c57;
     border-radius: 50px;
 }
+
+.cuadroLog {
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    text-align: center;
+}
+
+.cuadroLog .child{
+    text-align:right;
+}
+
