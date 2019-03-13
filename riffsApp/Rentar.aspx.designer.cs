@@ -10,15 +10,15 @@
 namespace riffsApp {
     
     
-    public partial class Home {
+    public partial class Rentar {
         
         /// <summary>
-        /// Control home.
+        /// Control rentar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm home;
+        protected global::System.Web.UI.HtmlControls.HtmlForm rentar;
     }
 }

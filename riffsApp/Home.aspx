@@ -10,14 +10,14 @@
 </head>
 <body>
     
-    <form id="form1" runat="server">
+    <form id="home" runat="server">
         <header class="head">
         <div class="logo">Logo</div>
         <nav class="navegador">
             <a href="Rentar.aspx">Rentar</a>
-            <a href="Rentar.aspx">Ofrece un espacio</a>
-            <a href="Rentar.aspx">Log In</a>
-            <a href="Rentar.aspx">Contacto</a>
+            <a href="Lease.aspx">Ofrece un espacio</a>
+            <a href="LogIn.aspx">Log In</a>
+            <a href="Contacto.aspx">Contacto</a>
         </nav>
     </header>
     <div class="fondo wrapper">
