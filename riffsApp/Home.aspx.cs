@@ -14,7 +14,7 @@ namespace riffsApp
         {
             if (!IsPostBack)
             {
-                Session["rentador"]="";
+                Session["rentador"]="ejemplo1";
             }
         }
     }
