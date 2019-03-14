@@ -9,8 +9,20 @@ namespace riffsApp
 {
     public partial class Lease : System.Web.UI.Page
     {
+           
+        private String usuario;
+        
+        
         protected void Page_Load(object sender, EventArgs e)
         {
+            usuario = Session["arrendatario"].ToString();
+            if (!isPostBack)
+            {
+               
+                
+               
+            }
+            
 
         }
     }
