@@ -1,0 +1,25 @@
+﻿* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: #f2f2f2;
+    margin-top:60px;
+    margin-left:80px;
+}
+
+boton {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f2f2f2;
+    font-family:Calibri;
+}
+
+#btAct {
+    background: #7ed3b2;
+}
+
+#btCan {
+    background: #ef6c57;
+}
