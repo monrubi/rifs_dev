@@ -13,7 +13,7 @@ namespace riffsApp
         string clave = "123";
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            bool i = true;
         }
 
         protected void btEntrar_Click(object sender, EventArgs e)
