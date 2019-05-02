@@ -19,7 +19,7 @@ namespace riffsApp
         protected void btEntrar_Click(object sender, EventArgs e)
         {
             if (txtNombre.Value == ""){
-                lbAviso.Text = "Debes escrtibir un nombre de usuario";
+                lbAviso.Text = "Debes escribir un nombre de usuario";
             }
             else
             {
