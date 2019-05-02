@@ -71,6 +71,7 @@
     <Content Include="Favs.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+    <Content Include="InfoCasa.aspx" />
     <Content Include="Lease.aspx" />
     <Content Include="LogIn.aspx" />
     <Content Include="ModificarPropiedad.aspx" />
@@ -100,6 +101,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoCasa.aspx.cs">
+      <DependentUpon>InfoCasa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InfoCasa.aspx.designer.cs">
+      <DependentUpon>InfoCasa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Lease.aspx.cs">
       <DependentUpon>Lease.aspx</DependentUpon>

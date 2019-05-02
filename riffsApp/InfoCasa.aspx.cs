@@ -7,16 +7,10 @@ using System.Web.UI.WebControls;
 
 namespace riffsApp
 {
-    public partial class Lease : System.Web.UI.Page
+    public partial class InfoCasa : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-        }
-
-        protected void agregar(object sender, EventArgs e)
-        {
-            Response.Redirect("ModificarPropiedad.aspx");
 
         }
     }

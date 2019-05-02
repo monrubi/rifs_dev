@@ -17,7 +17,9 @@ namespace riffsApp
         string apodo { get; set; }
         string correo { get; set; }
         string pasword { get; set; }
-        bool ofrece { get; set; }
+
+        Boolean ofrece { get; set; }
+
 
         //tendrá citas
         //List<Cita> citas;
@@ -27,9 +29,11 @@ namespace riffsApp
             numPropiedades = 0;
         }
 
-        public usuario(string _nombre, string _correo, string _pas, string _tel, bool _ofrece)
+
+        public usuario(string _nombre, string _correo, string _pas, string _tel, Boolean _ofrece)
         {
-            this = new usuario();
+            //this();
+
             nombre = _nombre;
             correo = _correo;
             tel = _tel;
