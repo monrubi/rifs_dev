@@ -11,6 +11,7 @@ namespace riffsApp
     {
         string usuario = "lupe";
         string clave = "123";
+        usuario[] bdUsuarios;
         protected void Page_Load(object sender, EventArgs e)
         {
         }
@@ -33,6 +34,19 @@ namespace riffsApp
                     pwContra.Value = "";
                 }
             }
+        }
+
+        protected void btReg_Click(object sender, EventArgs e)
+        {
+            String usuario, correo, psswrd, tel;
+            usuario = txtUs.Value.ToString();
+            lbAviso2.Visible = true;
+            correo = txtCor.Value.ToString();
+            psswrd = txtPw.Value.ToString();
+            tel = txtTel.Value.ToString();
+            usuario nuevo = new usuario(usuario, correo, psswrd, tel, false);
+            lbAviso2.Text = "Registro exitoso";
+            bdUsuarios[]
         }
     }
 }
