@@ -7,19 +7,24 @@ namespace riffsApp
 {
     public class Renter
     {
+        int clave { get; }
         string nombre { get; set; }
         string tel { get; set; }
-        int clave { get; set; }
+        string apodo { get; set; }
+        string correo { get; set; }
+        string pasword { get; set; }
         //tendrá citas
         //List<Cita> citas;
 
         public Renter() { }
 
-        public Renter(string _nombre, string _tel)
+        public Renter(string _nombre, string _correo, string _pas, string _tel )
         {
             nombre = _nombre;
+            correo = _correo;
             tel = _tel;
-            generateClave();
+            pasword = pasword;
+            clave = generateClave();
         }
 
         private int generateClave()
