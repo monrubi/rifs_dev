@@ -11,16 +11,15 @@
 <body>
     <form id="rentar" runat="server">
         <header class="head">
-            <div class="logo">Logo</div>
+            <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
             <nav class="navegador">
-                <a href="Home.aspx">Home</a>
-                <a href="Lease.aspx">Ofrece un espacio</a>
-                <a href="LogIn.aspx">Log In</a>
-                <a href="Contacto.aspx">Contacto</a>
+                <a href="Favs.aspx">Tus Favoritos</a>
+                <a href="Lease.aspx">Ofrece un cuarto</a>
+                <a href="Perfil.aspx"><img class="carita" src="sources\carita.svg" alt="Mi Cuenta">Mi Cuenta</a>
             </nav>
         </header>
         <div class="wrapper">
-            <h1>Renta tu espacio</h1>
+            <h2>Busca entre las propiedades disponibles</h2>
         </div>
     </form>
 </body>

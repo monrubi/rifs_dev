@@ -11,7 +11,7 @@
 <body>
     <form id="login" runat="server">
         <header class="head">
-            <div class="logo">Logo</div>
+            <a href="Home.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
             <nav class="navegador">
                 <a href="Home.aspx">Home</a>
             </nav>

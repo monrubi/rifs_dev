@@ -8,11 +8,10 @@
     <title>RIFS encuentra un lugar</title>
     <link rel="stylesheet" href="ssHome.css" />
 </head>
-<body>
-    
+<body>   
     <form id="home" runat="server">
         <header class="head">
-        <div class="logo">Logo</div>
+        <a href="Home.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
         <nav class="navegador">
             <a href="LogIn.aspx">Log In</a>
         </nav>
