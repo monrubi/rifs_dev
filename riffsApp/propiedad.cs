@@ -8,7 +8,7 @@ namespace riffsApp
 {
     public class Propiedad
     {
-        int clave;
+        static int clave =1000;
         string nombre { get; set; }
         string descripcion { get; set;}
         //string dir { get; set; }
@@ -36,7 +36,7 @@ namespace riffsApp
         private int generateClave()
         {
             //por ahora da 1 pero en cuanto esté la base se creará conforme esta
-            return 1;
+            return clave++;
         }
 
 
