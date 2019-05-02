@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,7 @@ namespace riffsApp
     {
         string usuario = "lupe";
         string clave = "123";
-        usuario[] bdUsuarios;
+        Arraylist bdUsuarios;
         protected void Page_Load(object sender, EventArgs e)
         {
         }
@@ -46,7 +47,7 @@ namespace riffsApp
             tel = txtTel.Value.ToString();
             usuario nuevo = new usuario(usuario, correo, psswrd, tel, false);
             lbAviso2.Text = "Registro exitoso";
-            bdUsuarios[]
+            bdUsuarios.Add(nuevo);
         }
     }
 }
