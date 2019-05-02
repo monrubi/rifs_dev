@@ -47,9 +47,11 @@ header a {
 header nav a:hover {
     background: #ef6c57;
     border-radius: 50px;
+    margin: 4px;
 }
 
-.cuadroLog {
+.cuadro{
+    padding: 10px;
     width:30%;
     margin-left: auto;
     margin-right: auto;
@@ -57,7 +59,29 @@ header nav a:hover {
     text-align: center;
 }
 
-.cuadroLog .child{
+.cuadro * {
+    margin: 8px;
+}
+
+.wrapper input {
+    padding-left: 6px;
+}
+
+input{
+    height: 25px;
+}
+
+.log .child{
     text-align:right;
+}
+
+.logo{
+    height:50px;
+    margin-top: 30px;
+}
+
+.carita{
+    height: 25PX;
+    margin: 4px;
 }
 

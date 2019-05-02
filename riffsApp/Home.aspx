@@ -8,21 +8,19 @@
     <title>RIFS encuentra un lugar</title>
     <link rel="stylesheet" href="ssHome.css" />
 </head>
-<body>
-    
+<body>   
     <form id="home" runat="server">
         <header class="head">
-        <div class="logo">Logo</div>
+        <a href="Home.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
         <nav class="navegador">
-            <a href="Rentar.aspx">Rentar</a>
-            <a href="Lease.aspx">Ofrece un espacio</a>
             <a href="LogIn.aspx">Log In</a>
-            <a href="Contacto.aspx">Contacto</a>
         </nav>
     </header>
     <div class="fondo wrapper">
-        <h1>Home</h1>
-        <img source="https://www.bienesonline.com/mexico/photos/venta-de-departamento-en-alvaro-obregon-14815894820.jpg"></img>
+        <h4>¡Regístrate! podras guardar favoritos y ofrecer tu propio espacio </h4>
+        <p>
+
+        </p>
     </div>
     </form>
 </body>
