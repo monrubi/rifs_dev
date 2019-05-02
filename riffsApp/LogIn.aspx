@@ -28,8 +28,10 @@
             <div class="cuadro reg" style="width: 300px; float:left; margin:10px">
                 <asp:Label ID="lbReg" runat="server" Text="Regístrate"></asp:Label>
                 <input id="txtUs" type="text" size="40" runat="server" placeholder="nombre de usuario" />
-                <input id="txtPw" type="password" size="40" runat="server" placeholder="contraseña" />    
-                <asp:Button ID="btReg" runat="server" Text="Crear cuenta" OnClick="btEntrar_Click"/>
+                <input id="txtPw" type="password" size="40" runat="server" placeholder="contraseña" />  
+                <input id="txtCor" type="text" size="40" runat="server" placeholder="correo electronico" />
+                <input id="txtTel" type="text" size="40" runat="server" placeholder="telefono" />
+                <asp:Button ID="btReg" runat="server" Text="Crear cuenta" OnClick="btReg_Click"/>
                 <br/>
                 <asp:Label ID="lbAviso2" runat="server" Text=""></asp:Label>
             </div>
