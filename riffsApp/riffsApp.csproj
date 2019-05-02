@@ -71,7 +71,23 @@
     <Content Include="Favs.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
-    <Content Include="InfoCasa.aspx" />
+
+    <Content Include="Images.Propiedades\Casa10.1.jpg" />
+    <Content Include="Images.Propiedades\Casa10.2.jpg" />
+    <Content Include="Images.Propiedades\Casa3.1.jpg" />
+    <Content Include="Images.Propiedades\Casa3.2.jpg" />
+    <Content Include="Images.Propiedades\Casa3.3.jpg" />
+    <Content Include="Images.Propiedades\Casa4.1.jpg" />
+    <Content Include="Images.Propiedades\Casa4.2.jpg" />
+    <Content Include="Images.Propiedades\Casa5.1.jpg" />
+    <Content Include="Images.Propiedades\Casa5.2.jpg" />
+    <Content Include="Images.Propiedades\Casa7.1.jpg" />
+    <Content Include="Images.Propiedades\Casa7.2.jpg" />
+    <Content Include="Images.Propiedades\Casa8.1.jpg" />
+    <Content Include="Images.Propiedades\Casa8.2.jpg" />
+    <Content Include="Images.Propiedades\Casa9.1.jpg" />
+    <Content Include="Images.Propiedades\Casa9.2.jpg" />
+
     <Content Include="Lease.aspx" />
     <Content Include="LogIn.aspx" />
     <Content Include="ModificarPropiedad.aspx" />

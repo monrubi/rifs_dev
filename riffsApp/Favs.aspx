@@ -15,7 +15,7 @@
             <nav class="navegador">
                 <a href="Rentar.aspx">Home</a>
                 <a href="Lease.aspx">Ofrece un cuarto</a>
-                <a href="Perfil.aspx"><img class="carita" src="sources\carita.svg" alt="Mi Cuenta">Mi Cuenta</a>
+                <a href="Perfil.aspx"><img class="carita" src="sources\carita.svg" alt="Mi Cuenta"/>Mi Cuenta</a>
             </nav>
         </header>
         <div class="fondo wrapper">

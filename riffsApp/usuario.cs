@@ -18,7 +18,9 @@ namespace riffsApp
         string correo { get; set; }
         string pasword { get; set; }
 
+
         Boolean ofrece { get; set; }
+
 
 
         //tendrá citas
@@ -30,9 +32,11 @@ namespace riffsApp
         }
 
 
+
         public usuario(string _nombre, string _correo, string _pas, string _tel, Boolean _ofrece)
         {
             usuario();
+
             nombre = _nombre;
             correo = _correo;
             tel = _tel;
