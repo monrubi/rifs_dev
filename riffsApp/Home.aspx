@@ -14,15 +14,12 @@
         <header class="head">
         <div class="logo">Logo</div>
         <nav class="navegador">
-            <a href="Rentar.aspx">Rentar</a>
-            <a href="Lease.aspx">Ofrece un espacio</a>
             <a href="LogIn.aspx">Log In</a>
-            <a href="Contacto.aspx">Contacto</a>
         </nav>
     </header>
     <div class="fondo wrapper">
-        <h1>Home</h1>
-        <img source="https://www.bienesonline.com/mexico/photos/venta-de-departamento-en-alvaro-obregon-14815894820.jpg"></img>
+        <h4>¡Regístrate! podras guardar favoritos y ofrecer tu propio espacio </h4>
+        
     </div>
     </form>
 </body>
