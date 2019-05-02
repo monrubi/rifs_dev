@@ -20,6 +20,7 @@
         <h4>¡Regístrate! podras guardar favoritos y ofrecer tu propio espacio </h4>
         
     </div>
+       
     </form>
 </body>
 </html>
