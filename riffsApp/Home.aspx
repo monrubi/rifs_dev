@@ -18,7 +18,9 @@
     </header>
     <div class="fondo wrapper">
         <h4>¡Regístrate! podras guardar favoritos y ofrecer tu propio espacio </h4>
-        
+        <p>
+
+        </p>
     </div>
     </form>
 </body>
