@@ -9,8 +9,7 @@ namespace riffsApp
     public class Propiedad
     {
         static int clave =1000;
-        string nombre { get; set; }
-        string descripcion { get; set;}
+        string direccion { get; set; }
         //string dir { get; set; }
         List<String> servicios { get; set; }
         //List<Renter> rentadores { get; set; } Objeto Session
@@ -25,10 +24,9 @@ namespace riffsApp
         //List<Cita> citas;
 
 
-        public Propiedad(string _nombre, string _desc, List<String> _serv, Boolean _amueblado, Boolean _transporte, float _precio, float _espacio, float _dist, string _rutaImagen)
+        public Propiedad(string _direccion, List<String> _serv, Boolean _amueblado, Boolean _transporte, float _precio, float _espacio, float _dist, string _rutaImagen)
         {
-            nombre = _nombre;
-            descripcion = _desc;
+            direccion = _direccion;
             amueblado = _amueblado;
             transporte = _transporte;
             servicios = _serv;

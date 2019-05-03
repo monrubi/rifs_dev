@@ -17,14 +17,30 @@ namespace riffsApp
         protected void btAct_Click(object sender, EventArgs e)
         {
 
-            String nombre, descripcion;
+            String direccion;
             float precio, espacio, distancia;
             List<String> servicios;
-            bool amueblado;
-            nombre = txtDir.Value.ToString();
+            bool amueblado, transporte;
+            direccion = txtDir.Value.ToString();
             precio = (float) txtPrecio.Value; 
             espacio = (float)txtEspacio.Value;
             distancia = (float)txtTiempo.Value;
+            if(RadioButtonList2.SelectedIndex == 0)
+            {
+                transporte = false; //false es caminando, true es auto
+            }else
+            {
+                transporte = true;
+            }
+            if(RadioButtonList1.SelectedIndex == 0)
+            {
+                amueblado = true;
+            }
+            else
+            {
+                amueblado = false;
+            }
+
 
         }
     }
