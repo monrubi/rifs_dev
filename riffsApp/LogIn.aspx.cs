@@ -12,7 +12,7 @@ namespace riffsApp
     {
         string usuario = "lupe";
         string clave = "123";
-        Arraylist bdUsuarios;
+        ArrayList bdUsuarios= new ArrayList();
         protected void Page_Load(object sender, EventArgs e)
         {
         }
