@@ -52,8 +52,13 @@
                 <asp:ListItem>Baño individual</asp:ListItem>
             </asp:CheckBoxList>
             </div>
-
-
+            <div>
+                <br/>
+                <h4>Añada una imagen de la habitación:</h4>
+                <asp:FileUpload ID="FileUpload1" runat="server" />
+                
+            </div>
+            <br>
             <asp:Button class="boton" ID="btAct" runat="server" Text="Actualizar" />
             <asp:Button class="boton" ID="btCan" runat="server" Text="Cancelar" />
         </div>
