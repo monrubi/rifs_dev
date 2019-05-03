@@ -55,7 +55,7 @@
             <div>
                 <br/>
                 <h4>Añada una imagen de la habitación:</h4>
-                <asp:FileUpload ID="FileUpload1" runat="server" />
+                <asp:FileUpload ID="CargaImagen" runat="server" />
                 
             </div>
             <br>
