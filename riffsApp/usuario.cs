@@ -35,7 +35,7 @@ namespace riffsApp
 
         public usuario(string _nombre, string _correo, string _pas, string _tel, Boolean _ofrece)
         {
-            usuario();
+            //usuario();
 
             nombre = _nombre;
             correo = _correo;
