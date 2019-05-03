@@ -21,11 +21,11 @@
         </header>
         <div class="fondo wrapper">
             <h2>Da de alta una propiedad para ofrecerla a estudiantes</h2>
-            <p>Dirección<input id="txtDir" type="text" size=50 /></p>
-            <p>Precio (MXN)<input id="txtPrecio" type="text" size=15 /></p>
-            <p>Espacio (m^2)<input id="txtEspacio" type="text" size=15 /></p>
+            <p>Dirección<asp:TextBox ID="txtDir" type="text" size=50 runat="server"></asp:TextBox></p>
+            <p>Precio (MXN)<asp:TextBox id="txtPrecio" type="text" size=15 runat="server"></asp:TextBox></p>
+            <p>Espacio (m^2)<asp:TextBox id="txtEspacio" type="text" size=15 runat="server"></asp:TextBox></p>
             <div class="tiempo">
-                <p>Tiempo al itam (min)<input id="txtTiempo" type="text" size=15 /></p>
+                <p>Tiempo al itam (min)<asp:TextBox id="txtTiempo" type="text" size=15 runat="server"></asp:TextBox></p>
                 <asp:RadioButtonList ID="RadioButtonList2" runat="server">
                     <asp:ListItem>Caminando</asp:ListItem>
                     <asp:ListItem>Auto</asp:ListItem>         
