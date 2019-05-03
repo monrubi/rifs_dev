@@ -21,11 +21,11 @@
         </header>
         <div class="fondo wrapper">
             <h2>Da de alta una propiedad para ofrecerla a estudiantes</h2>
-            <p>Dirección<input id="txtDir" type="text" size=50 /></p>
-            <p>Precio (MXN)<input id="txtPrecio" type="text" size=15 /></p>
-            <p>Espacio (m^2)<input id="txtEspacio" type="text" size=15 /></p>
+            <p>Dirección<asp:TextBox ID="txtDir" type="text" size=50 runat="server"></asp:TextBox></p>
+            <p>Precio (MXN)<asp:TextBox id="txtPrecio" type="text" size=15 runat="server"></asp:TextBox></p>
+            <p>Espacio (m^2)<asp:TextBox id="txtEspacio" type="text" size=15 runat="server"></asp:TextBox></p>
             <div class="tiempo">
-                <p>Tiempo al itam (min)<input id="txtTiempo" type="text" size=15 /></p>
+                <p>Tiempo al itam (min)<asp:TextBox id="txtTiempo" type="text" size=15 runat="server"></asp:TextBox></p>
                 <asp:RadioButtonList ID="RadioButtonList2" runat="server">
                     <asp:ListItem>Caminando</asp:ListItem>
                     <asp:ListItem>Auto</asp:ListItem>         
@@ -47,15 +47,22 @@
                 <asp:ListItem>Lavandería</asp:ListItem>
                 <asp:ListItem>Estacionamiento</asp:ListItem>
                 <asp:ListItem>Limpieza</asp:ListItem>
-                <asp:ListItem>Serivicios incluídos</asp:ListItem>
+                <asp:ListItem>Servicios incluídos</asp:ListItem>
                 <asp:ListItem>Acceso a cocina</asp:ListItem>
                 <asp:ListItem>Baño individual</asp:ListItem>
             </asp:CheckBoxList>
             </div>
-
-
-            <asp:Button class="boton" ID="btAct" runat="server" Text="Actualizar" />
+            <div>
+                <br/>
+                <h4>Añada una imagen de la habitación:</h4>
+                <asp:FileUpload ID="CargaImagen" runat="server" />
+                
+            </div>
+            <br>
+            <asp:Button class="boton" ID="btAct" runat="server" Text="Actualizar" OnClick="btAct_Click" />
             <asp:Button class="boton" ID="btCan" runat="server" Text="Cancelar" />
+            <br />
+            <asp:Label ID="aaaaaH" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
 </body>

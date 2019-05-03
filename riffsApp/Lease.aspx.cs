@@ -16,14 +16,8 @@ namespace riffsApp
         protected void Page_Load(object sender, EventArgs e)
         {
             usuario = Session["arrendatario"].ToString();
-            //if (!isPostBack)
-            {
-               
-                
-               
-            }
-            
 
+            //if (!isPostBack)
         }
 
         protected void agregar(object sender, EventArgs e)

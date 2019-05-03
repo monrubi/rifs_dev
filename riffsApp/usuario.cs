@@ -26,7 +26,7 @@ namespace riffsApp
         //tendrá citas
         //List<Cita> citas;
 
-        public usuario() {
+        public void inicial() {
             favoritos = new Propiedad[15];
             numPropiedades = 0;
         }
@@ -35,8 +35,8 @@ namespace riffsApp
 
         public usuario(string _nombre, string _correo, string _pas, string _tel, Boolean _ofrece)
         {
-            //usuario();
 
+            inicial();
             nombre = _nombre;
             correo = _correo;
             tel = _tel;
