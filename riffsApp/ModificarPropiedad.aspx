@@ -47,7 +47,7 @@
                 <asp:ListItem>Lavandería</asp:ListItem>
                 <asp:ListItem>Estacionamiento</asp:ListItem>
                 <asp:ListItem>Limpieza</asp:ListItem>
-                <asp:ListItem>Serivicios incluídos</asp:ListItem>
+                <asp:ListItem>Servicios incluídos</asp:ListItem>
                 <asp:ListItem>Acceso a cocina</asp:ListItem>
                 <asp:ListItem>Baño individual</asp:ListItem>
             </asp:CheckBoxList>
@@ -59,7 +59,7 @@
                 
             </div>
             <br>
-            <asp:Button class="boton" ID="btAct" runat="server" Text="Actualizar" />
+            <asp:Button class="boton" ID="btAct" runat="server" Text="Actualizar" OnClick="btAct_Click" />
             <asp:Button class="boton" ID="btCan" runat="server" Text="Cancelar" />
         </div>
     </form>
