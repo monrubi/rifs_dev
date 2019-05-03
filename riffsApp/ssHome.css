@@ -87,3 +87,16 @@ input{
     margin: 4px;
 }
 
+.props{
+    vertical-align:central;
+    margin-left:auto;
+    margin-right:auto;
+    height:auto; 
+    width:auto;
+}
+
+#tarjeta * {
+    height:100px;
+    margin: 20px; 
+}
+
