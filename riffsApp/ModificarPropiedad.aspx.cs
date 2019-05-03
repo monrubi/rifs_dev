@@ -48,8 +48,8 @@ namespace riffsApp
                     servicios.Add(CheckBoxList1.Items[i].Text);
                 }
             }
-            
-            //Propiedad nueva = new Propiedad(direccion, servicios, amueblado, transporte, precio, espacio, distancia, );
+            rutaImagen = ;
+            Propiedad nueva = new Propiedad(direccion, servicios, amueblado, transporte, precio, espacio, distancia, );
         }
     }
 }
