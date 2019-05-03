@@ -71,6 +71,7 @@
     <Content Include="Favs.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+
     <Content Include="Images.Propiedades\Casa10.1.jpg" />
     <Content Include="Images.Propiedades\Casa10.2.jpg" />
     <Content Include="Images.Propiedades\Casa3.1.jpg" />
@@ -86,6 +87,7 @@
     <Content Include="Images.Propiedades\Casa8.2.jpg" />
     <Content Include="Images.Propiedades\Casa9.1.jpg" />
     <Content Include="Images.Propiedades\Casa9.2.jpg" />
+
     <Content Include="Lease.aspx" />
     <Content Include="LogIn.aspx" />
     <Content Include="ModificarPropiedad.aspx" />
@@ -115,6 +117,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InfoCasa.aspx.cs">
+      <DependentUpon>InfoCasa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InfoCasa.aspx.designer.cs">
+      <DependentUpon>InfoCasa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Lease.aspx.cs">
       <DependentUpon>Lease.aspx</DependentUpon>
