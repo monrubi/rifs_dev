@@ -13,5 +13,17 @@ namespace riffsApp
         {
 
         }
+
+        protected void btAct_Click(object sender, EventArgs e)
+        {
+            String nombre, descripcion;
+            float precio, espacio, distancia;
+            List<String> servicios;
+            bool amueblado;
+            nombre = txtDir.Value.ToString();
+            precio = (float) txtPrecio.Value; 
+            espacio = (float)txtEspacio.Value;
+            distancia = (float)txtTiempo.Value;
+        }
     }
 }
