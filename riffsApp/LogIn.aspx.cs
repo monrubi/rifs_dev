@@ -15,7 +15,6 @@ namespace riffsApp
         ArrayList bdUsuarios= new ArrayList();
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
 
         protected void btEntrar_Click(object sender, EventArgs e)
