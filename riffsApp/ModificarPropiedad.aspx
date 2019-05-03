@@ -61,6 +61,8 @@
             <br>
             <asp:Button class="boton" ID="btAct" runat="server" Text="Actualizar" OnClick="btAct_Click" />
             <asp:Button class="boton" ID="btCan" runat="server" Text="Cancelar" />
+            <br />
+            <asp:Label ID="aaaaaH" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
 </body>
