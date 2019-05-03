@@ -18,22 +18,25 @@ namespace riffsApp
         string correo { get; set; }
         string pasword { get; set; }
 
+
         Boolean ofrece { get; set; }
+
 
 
         //tendrá citas
         //List<Cita> citas;
 
-        public usuario() {
+        public void inicial() {
             favoritos = new Propiedad[15];
             numPropiedades = 0;
         }
 
 
+
         public usuario(string _nombre, string _correo, string _pas, string _tel, Boolean _ofrece)
         {
-            //this();
 
+            inicial();
             nombre = _nombre;
             correo = _correo;
             tel = _tel;
