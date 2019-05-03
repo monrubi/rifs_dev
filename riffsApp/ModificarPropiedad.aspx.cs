@@ -25,7 +25,6 @@ namespace riffsApp
             precio = (float) txtPrecio.Value; 
             espacio = (float)txtEspacio.Value;
             distancia = (float)txtTiempo.Value;
-
         }
     }
 }
