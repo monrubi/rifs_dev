@@ -16,6 +16,7 @@ namespace riffsApp
 
         protected void btAct_Click(object sender, EventArgs e)
         {
+
             String nombre, descripcion;
             float precio, espacio, distancia;
             List<String> servicios;
@@ -24,6 +25,7 @@ namespace riffsApp
             precio = (float) txtPrecio.Value; 
             espacio = (float)txtEspacio.Value;
             distancia = (float)txtTiempo.Value;
+
         }
     }
 }
