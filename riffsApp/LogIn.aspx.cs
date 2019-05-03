@@ -47,6 +47,7 @@ namespace riffsApp
             tel = txtTel.Value.ToString();
             usuario nuevo = new usuario(usuario, correo, psswrd, tel, false);
             lbAviso2.Text = "Registro exitoso";
+
             bdUsuarios.Add(nuevo);
         }
     }
