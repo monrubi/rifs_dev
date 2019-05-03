@@ -41,7 +41,6 @@ namespace riffsApp
                 amueblado = false;
             }
 
-
         }
     }
 }
