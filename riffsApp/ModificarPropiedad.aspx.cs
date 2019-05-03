@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -11,7 +12,7 @@ namespace riffsApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         protected void btAct_Click(object sender, EventArgs e)
@@ -48,11 +49,16 @@ namespace riffsApp
                     servicios.Add(CheckBoxList1.Items[i].Text);
                 }
             }
-            rutaImagen = "Images.Propiedades\\" + CargaImagen.FileName;
-           
-            CargaImagen.PostedFile.SaveAs("Images.Propiedades\\" + CargaImagen.FileName);
-
-            //Propiedad nueva = new Propiedad(direccion, servicios, amueblado, transporte, precio, espacio, distancia, );
+            int tamano = CargaImagen.PostedFile.ContentLength;
+            byte[] pic = new byte[tamano]; //este byte se guardara en la base de datos de sql
+            CargaImagen.SaveAs(Server.MapPath("Images.Propiedades\\" + CargaImagen.FileName));
+            //CargaImagen.PostedFile.SaveAs(@"Images.Propiedades" + @"\" + CargaImagen.FileName);
+            //File.Copy(rutaImagen, Path.Combine(@"C:\Users\SVALDERRC\Source\Repos\monrubi\rifs_dev\riffsApp\Images.Propiedades",Path.GetFileName(rutaImagen)),true);
+            //Propiedad nueva = new Propiedad(direccion, servicios, amueblado, transporte, precio, espacio, distancia, " ");
+            aaaaaH.Text = "Alta exitosa";
         }
+
+
+
     }
 }
