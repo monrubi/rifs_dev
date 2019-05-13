@@ -19,14 +19,14 @@ namespace riffsApp
 
         protected void btEntrar_Click(object sender, EventArgs e)
         {
-            if (txtNombre.Value == ""){
+            /*if (txtNombre.Value == ""){
                 lbAviso.Text = "Debes escribir un nombre de usuario";
             }
             else
             {
                 if(txtNombre.Value == usuario && pwContra.Value == clave)
                 {
-                    Session["rentador"] = usuario;
+                    Session["arrendatario"] = usuario;
                     Server.Transfer("Lease.aspx");
                 }
                 else
@@ -34,11 +34,11 @@ namespace riffsApp
                     lbAviso.Text = "Usuario o contraseña incorrecto";
                     pwContra.Value = "";
                 }
-            }
+            }*/
         }
 
         protected void btReg_Click(object sender, EventArgs e)
-        {
+        {/*
             String usuario, correo, psswrd, tel;
             usuario = txtUs.Value.ToString();
             lbAviso2.Visible = true;
@@ -48,7 +48,7 @@ namespace riffsApp
             usuario nuevo = new usuario(usuario, correo, psswrd, tel, false);
             lbAviso2.Text = "Registro exitoso";
 
-            bdUsuarios.Add(nuevo);
+            bdUsuarios.Add(nuevo);*/
         }
     }
 }
