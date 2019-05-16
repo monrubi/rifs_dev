@@ -98,6 +98,12 @@
     <Content Include="sources\carita.svg" />
     <Content Include="sources\logo1.svg" />
     <Content Include="sources\logo2.svg" />
+    <Content Include="sources\propiedades\prop1.png" />
+    <Content Include="sources\propiedades\prop2.png" />
+    <Content Include="sources\propiedades\prop3.png" />
+    <Content Include="sources\propiedades\prop4.png" />
+    <Content Include="sources\propiedades\prop5.png" />
+    <Content Include="sources\propiedades\prop6.png" />
     <Content Include="ssHome.css" />
     <Content Include="ssCambios.css" />
     <Content Include="Web.config" />
