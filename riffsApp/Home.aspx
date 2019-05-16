@@ -24,7 +24,7 @@
 
     
         <div class="fondo wrapper">
-        <h4 align="center">¡Regístrate! podrás guardar tus favoritos y ofrecer tu propio espacio </h4><br />
+        <h4 align="center">¡Regístrate!<br />Podrás ver datos del inmueble, guardar tus favoritos y ofrecer tu propio espacio </h4><br />
             <div class="props" width="100%">
                 <asp:ImageButton ID="ib1" runat="server" src="sources\propiedades\prop1.png" OnClick="ib1_Click" Height="300px" />
                 <asp:ImageButton ID="ib2" runat="server" src="sources\propiedades\prop2.png" OnClick="ib1_Click" Height="300px" />
