@@ -42,7 +42,7 @@ namespace riffsApp
 
         protected void ib1_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("Lease.aspx");
+            Response.Redirect("LogIn.aspx");
         }
 
     }

@@ -23,20 +23,21 @@
             </header>
 
     
-
-   
         <div class="fondo wrapper">
         <h4 align="center">¡Regístrate! podrás guardar tus favoritos y ofrecer tu propio espacio </h4><br />
             <div class="props" width="100%">
-                <a href="Home.aspx"><img ID="prop" src="sources\propiedades\prop1.png" alt="Home"></a>
-                <a href="Home.aspx"><img ID="prop" src="sources\propiedades\prop2.png" alt="Home"></a>
-                <a href="Home.aspx"><img ID="prop" src="sources\propiedades\prop3.png" alt="Home"></a>
-                <a href="Home.aspx"><img ID="prop" src="sources\propiedades\prop4.png" alt="Home"></a>
-                <a href="Home.aspx"><img ID="prop" src="sources\propiedades\prop5.png" alt="Home"></a>
-                <a href="Home.aspx"><img ID="prop" src="sources\propiedades\prop6.png" alt="Home"></a>
+                <asp:ImageButton ID="ib1" runat="server" src="sources\propiedades\prop1.png" OnClick="ib1_Click" Height="300px" />
+                <asp:ImageButton ID="ib2" runat="server" src="sources\propiedades\prop2.png" OnClick="ib1_Click" Height="300px" />
+                <asp:ImageButton ID="ib3" runat="server" src="sources\propiedades\prop3.png" OnClick="ib1_Click" Height="300px" />
+                <asp:ImageButton ID="ib4" runat="server" src="sources\propiedades\prop4.png" OnClick="ib1_Click" Height="300px" />
+                <asp:ImageButton ID="ib5" runat="server" src="sources\propiedades\prop5.png" OnClick="ib1_Click" Height="300px" />
+                <asp:ImageButton ID="ib6" runat="server" src="sources\propiedades\prop6.png" OnClick="ib1_Click" Height="300px" />
             </div> 
         </div>
+        </form>
     </body>
 
 </html>
+
+
 
