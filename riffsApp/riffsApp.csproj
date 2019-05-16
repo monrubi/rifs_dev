@@ -68,12 +68,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CrearCuenta.aspx" />
+    <Content Include="CuartoPagina.aspx" />
     <Content Include="Favs.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
-
     <Content Include="Images.Propiedades\Casa10.1.jpg" />
     <Content Include="Images.Propiedades\Casa10.2.jpg" />
+    <Content Include="Images.Propiedades\Casa11.1.jpg" />
+    <Content Include="Images.Propiedades\Casa14.1.jpg" />
     <Content Include="Images.Propiedades\Casa3.1.jpg" />
     <Content Include="Images.Propiedades\Casa3.2.jpg" />
     <Content Include="Images.Propiedades\Casa3.3.jpg" />
@@ -87,7 +90,6 @@
     <Content Include="Images.Propiedades\Casa8.2.jpg" />
     <Content Include="Images.Propiedades\Casa9.1.jpg" />
     <Content Include="Images.Propiedades\Casa9.2.jpg" />
-
     <Content Include="Lease.aspx" />
     <Content Include="LogIn.aspx" />
     <Content Include="ModificarPropiedad.aspx" />
@@ -101,6 +103,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CrearCuenta.aspx.cs">
+      <DependentUpon>CrearCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrearCuenta.aspx.designer.cs">
+      <DependentUpon>CrearCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CuartoPagina.aspx.cs">
+      <DependentUpon>CuartoPagina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CuartoPagina.aspx.designer.cs">
+      <DependentUpon>CuartoPagina.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Favs.aspx.cs">
       <DependentUpon>Favs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
