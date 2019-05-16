@@ -12,10 +12,14 @@ namespace riffsApp
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                Session["rentador"]="ejemplo1";
-            }
+
         }
+
+
+        protected void ib1_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("LogIn.aspx");
+        }
+
     }
 }

@@ -31,6 +31,7 @@ header .logo {
 
 header .navegador {
     float: right;
+    margin-right:20px;
 }
 
 header a {
@@ -85,12 +86,13 @@ input{
     margin: 4px;
 }
 
+
 .props #prop{
-    vertical-align:central;
     margin-left:auto;
     margin-right:auto;
     width: 70%;
     max-height: 300px;
+    margin-top:30px;
 }
 
 #tarjeta * {
