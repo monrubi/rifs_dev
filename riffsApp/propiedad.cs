@@ -18,13 +18,14 @@ namespace riffsApp
         float espacio { get; set; }
         float precio { get; set; }
         float distancia { get; set; }
+        string descripcion { get; set; }
 
         string rutaImagen { get; set;}
         //tendrá citas
         //List<Cita> citas;
 
 
-        public Propiedad(string _direccion, List<String> _serv, Boolean _amueblado, Boolean _transporte, float _precio, float _espacio, float _dist, string _rutaImagen)
+        public Propiedad(string _direccion, List<String> _serv, Boolean _amueblado, Boolean _transporte, float _precio, float _espacio, float _dist, string _rutaImagen, string _descripcion)
         {
             direccion = _direccion;
             amueblado = _amueblado;
@@ -34,6 +35,7 @@ namespace riffsApp
             precio = _precio;
             distancia = _dist;
             rutaImagen = _rutaImagen;
+            _descripcion = descripcion;
             clave = generateClave();
         }
 
