@@ -17,7 +17,7 @@ namespace riffsApp
 
         protected void btAct_Click(object sender, EventArgs e)
         {
-
+/*
             String direccion, rutaImagen;
             float precio, espacio, distancia;
             List<String> servicios;
@@ -55,7 +55,7 @@ namespace riffsApp
             //CargaImagen.PostedFile.SaveAs(@"Images.Propiedades" + @"\" + CargaImagen.FileName);
             //File.Copy(rutaImagen, Path.Combine(@"C:\Users\SVALDERRC\Source\Repos\monrubi\rifs_dev\riffsApp\Images.Propiedades",Path.GetFileName(rutaImagen)),true);
             //Propiedad nueva = new Propiedad(direccion, servicios, amueblado, transporte, precio, espacio, distancia, " ");
-            aaaaaH.Text = "Alta exitosa";
+            aaaaaH.Text = "Alta exitosa";*/
         }
 
 
