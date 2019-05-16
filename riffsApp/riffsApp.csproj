@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CrearCuenta.aspx" />
+    <Content Include="CuartoPagina.aspx" />
     <Content Include="Favs.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
@@ -108,6 +109,13 @@
     </Compile>
     <Compile Include="CrearCuenta.aspx.designer.cs">
       <DependentUpon>CrearCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CuartoPagina.aspx.cs">
+      <DependentUpon>CuartoPagina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CuartoPagina.aspx.designer.cs">
+      <DependentUpon>CuartoPagina.aspx</DependentUpon>
     </Compile>
     <Compile Include="Favs.aspx.cs">
       <DependentUpon>Favs.aspx</DependentUpon>

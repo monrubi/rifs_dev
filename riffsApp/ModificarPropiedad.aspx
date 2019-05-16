@@ -123,7 +123,7 @@
                                   Baño individual
                                 </label>
                             </div>
-                            <div class="file is-boxed is-primary is-centered">
+                            <div class="file is-boxed is-primary ">
                               <label class="file-label">
                                 <input class="file-input" type="file" name="resume">
                                 <span class="file-cta">
@@ -135,7 +135,7 @@
                                   </span>
                                 </span>
                               </label>
-                            </div> <br />
+                            </div> <br /><br />
                         <button class="button is-rounded is-centered">Ofrecer cuarto</button>
                           <div class="modal">
                             <div class="modal-background"></div>
