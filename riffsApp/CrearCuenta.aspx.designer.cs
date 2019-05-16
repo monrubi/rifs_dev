@@ -10,6 +10,6 @@
 namespace riffsApp {
     
     
-    public partial class LogIn {
+    public partial class CrearCuenta {
     }
 }

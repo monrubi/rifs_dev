@@ -22,6 +22,8 @@
     </header>
 
     
+
+   
         <div class="fondo wrapper">
         <h4 align="center">¡Regístrate! podrás guardar tus favoritos y ofrecer tu propio espacio </h4><br />
             <div class="props" width="100%">
@@ -34,5 +36,6 @@
             </div> 
         </div>
     </body>
+
 </html>
 
