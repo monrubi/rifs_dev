@@ -35,7 +35,9 @@ namespace riffsApp
             precio = _precio;
             distancia = _dist;
             rutaImagen = _rutaImagen;
-            rutaColage = _rutaColage;
+            _descripcion = descripcion;
+           // rutaColage = _rutaColage;
+
         }
 
         private int generateClave()
