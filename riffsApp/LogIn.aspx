@@ -6,6 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Log in de la página</title>
     <link rel="stylesheet" href="ssHome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
         <header class="head">
@@ -41,7 +44,7 @@
                         Recuérdame
                     </label>
                 </div>
-                <a class="button is-primary is-rounded is-flex is-horizontal-centered" onclick="location.href='Lease.aspx'">Entrar</a> &nbsp;
+                <a class="button is-primary is-rounded is-flex is-horizontal-centered" onclick="location.href='Rentar.aspx'">Entrar</a> &nbsp;
                 <p class=" has-text-centered "> 
                     <a href="CrearCuenta.aspx">CREAR CUENTA</a> 
                 </p>

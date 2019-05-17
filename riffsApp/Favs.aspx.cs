@@ -45,32 +45,32 @@ namespace riffsApp
 
         protected void ib1_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("CuartoPagina.aspx");
+            Response.Redirect("Collage1.aspx");
         }
 
         protected void ib2_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("CuartoPagina.aspx");
+            Response.Redirect("Collage2.aspx");
         }
 
         protected void ib3_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("CuartoPagina.aspx");
+            Response.Redirect("Collage3.aspx");
         }
 
         protected void ib4_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("CuartoPagina.aspx");
+            Response.Redirect("Collage4.aspx");
         }
 
         protected void ib5_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("CuartoPagina.aspx");
+            Response.Redirect("Collage5.aspx");
         }
 
         protected void ib6_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("CuartoPagina.aspx");
+            Response.Redirect("Collage6.aspx");
         }
     }
 }

@@ -22,7 +22,7 @@
     <div class="fondo wrapper">
         <div class="columns">
           <div class="column is-half is-narrow is-offset-one-quarter">
-            <h3 align="center" class="title has-text-grey has-text-centered">Ofrezca una habitación</h3>
+            <h4 align="center" class="title has-text-grey has-text-centered">Ofrezca una habitación</h4>
                         <div class="contAltas">
                             <div class="field"> Título
                                 <div class="control">

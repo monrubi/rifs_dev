@@ -76,6 +76,7 @@
     <Content Include="Collage6.aspx" />
     <Content Include="CrearCuenta.aspx" />
     <Content Include="CuartoPagina.aspx" />
+    <Content Include="EditarPropiedad.aspx" />
     <Content Include="Favs.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
@@ -104,6 +105,7 @@
     <Content Include="Perfil.aspx" />
     <Content Include="Rentar.aspx" />
     <Content Include="sources\boton.png" />
+    <Content Include="sources\buscar.png" />
     <Content Include="sources\carita.svg" />
     <Content Include="sources\colages\col1.png" />
     <Content Include="sources\colages\col2.png" />
@@ -111,8 +113,12 @@
     <Content Include="sources\colages\col4.png" />
     <Content Include="sources\colages\col5.png" />
     <Content Include="sources\colages\col6.png" />
+    <Content Include="sources\fondo.jpg" />
+    <Content Include="sources\gatos.jpg" />
     <Content Include="sources\logo1.svg" />
     <Content Include="sources\logo2.svg" />
+    <Content Include="sources\propiedades\miProp1.png" />
+    <Content Include="sources\propiedades\miProp2.png" />
     <Content Include="sources\propiedades\prop1.png" />
     <Content Include="sources\propiedades\prop2.png" />
     <Content Include="sources\propiedades\prop3.png" />
@@ -179,6 +185,13 @@
     </Compile>
     <Compile Include="CuartoPagina.aspx.designer.cs">
       <DependentUpon>CuartoPagina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarPropiedad.aspx.cs">
+      <DependentUpon>EditarPropiedad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPropiedad.aspx.designer.cs">
+      <DependentUpon>EditarPropiedad.aspx</DependentUpon>
     </Compile>
     <Compile Include="Favs.aspx.cs">
       <DependentUpon>Favs.aspx</DependentUpon>

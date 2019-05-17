@@ -15,17 +15,17 @@ namespace riffsApp
         //List<Renter> rentadores { get; set; } Objeto Session
         Boolean amueblado { get; set; }
         Boolean transporte { get; set; }
-        float espacio { get; set; }
-        float precio { get; set; }
-        float distancia { get; set; }
+        double espacio { get; set; }
+        double precio { get; set; }
+        double distancia { get; set; }
 
         string rutaImagen { get; set;}
-        string rutaColage { get; set; }
+
         //tendrá citas
         //List<Cita> citas;
 
 
-        public Propiedad(string _direccion, Boolean _amueblado, Boolean _transporte, float _precio, float _espacio, float _dist, string _rutaImagen, string _rutaColage)
+        public Propiedad(string _direccion, Boolean _amueblado, Boolean _transporte, double _precio, double _espacio, double _dist, string _rutaImagen)
         {
             direccion = _direccion;
             amueblado = _amueblado;
@@ -49,6 +49,16 @@ namespace riffsApp
         public void agrega_servicio(String _servicio)
         {
             servicios.Add(_servicio);
+        }
+
+        public double getPrecio()
+        {
+            return precio;
+        }
+
+        public double getDistancia()
+        {
+            return distancia;
         }
 
 
