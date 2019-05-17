@@ -54,41 +54,27 @@ namespace riffsApp
 
         protected void favButton1_Click(object sender, ImageClickEventArgs e)
         {
-            if (Session["fav1"].Equals(true))
-            {
-                favButton1.Visible = true;
-            }
+            Session["fav1"] = true;
+            
         }
             
         protected void favButton2_Click(object sender, ImageClickEventArgs e)
         {
-            if (Session["fav2"].Equals(true))
-            {
-                favButton2.Visible = true;
-            }
+            Session["fav2"] = true;
         }
 
     protected void favButton3_Click(object sender, ImageClickEventArgs e)
     {
-            if (Session["fav3"].Equals(true))
-            {
-                favButton3.Visible = true;
-            }
+            Session["fav3"] = true;
         }
     protected void favButton4_Click(object sender, ImageClickEventArgs e)
     {
-            if (Session["fav4"].Equals(true))
-            {
-                favButton4.Visible = true;
-            }
+            Session["fav4"] = true;
         }
 
     protected void favButton5_Click(object sender, ImageClickEventArgs e)
     {
-            if (Session["fav5"].Equals(true))
-            {
-                favButton5.Visible = true;
-            }
+            Session["fav5"] = true;
         }
           
             
