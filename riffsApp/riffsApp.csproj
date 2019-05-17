@@ -68,6 +68,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Collage1.aspx" />
+    <Content Include="Collage2.aspx" />
+    <Content Include="Collage3.aspx" />
+    <Content Include="Collage4.aspx" />
+    <Content Include="Collage5.aspx" />
+    <Content Include="Collage6.aspx" />
     <Content Include="CrearCuenta.aspx" />
     <Content Include="CuartoPagina.aspx" />
     <Content Include="Favs.aspx" />
@@ -98,6 +104,7 @@
     <Content Include="Perfil.aspx" />
     <Content Include="Rentar.aspx" />
     <Content Include="sources\carita.svg" />
+    <Content Include="sources\colages\col1.png" />
     <Content Include="sources\logo1.svg" />
     <Content Include="sources\logo2.svg" />
     <Content Include="sources\propiedades\prop1.png" />
@@ -111,6 +118,48 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collage1.aspx.cs">
+      <DependentUpon>Collage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collage1.aspx.designer.cs">
+      <DependentUpon>Collage1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collage2.aspx.cs">
+      <DependentUpon>Collage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collage2.aspx.designer.cs">
+      <DependentUpon>Collage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collage3.aspx.cs">
+      <DependentUpon>Collage3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collage3.aspx.designer.cs">
+      <DependentUpon>Collage3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collage4.aspx.cs">
+      <DependentUpon>Collage4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collage4.aspx.designer.cs">
+      <DependentUpon>Collage4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collage5.aspx.cs">
+      <DependentUpon>Collage5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collage5.aspx.designer.cs">
+      <DependentUpon>Collage5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Collage6.aspx.cs">
+      <DependentUpon>Collage6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Collage6.aspx.designer.cs">
+      <DependentUpon>Collage6.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CrearCuenta.aspx.cs">
       <DependentUpon>CrearCuenta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
