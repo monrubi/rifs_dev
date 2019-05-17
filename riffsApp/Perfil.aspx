@@ -37,7 +37,7 @@
             <br />
             <br />
             <asp:Label ID="Label5" runat="server" Text="Propiedades: " Font-Size="XX-Large"></asp:Label>
-            <asp:Label ID="Label6" runat="server" Text="0" Font-Bold="True" Font-Size="XX-Large"></asp:Label>
+            <asp:Label ID="Label6" runat="server" Text="2" Font-Bold="True" Font-Size="XX-Large"></asp:Label>
         </div>
     
          </form>
