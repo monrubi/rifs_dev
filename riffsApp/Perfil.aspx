@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="ssHome.css" />
 </head>
 <body>
-    <div class="fondo wrapper">
+    
          <header class="head">
             <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
             <nav class="navegador">
@@ -21,6 +21,6 @@
         <div class="wrapper">
             <h2>Perfil del usuario</h2>
         </div>
-    </div>
+    
 </body>
 </html>
