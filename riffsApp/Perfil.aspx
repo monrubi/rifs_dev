@@ -13,12 +13,13 @@
          <form id="form1" runat="server">
     
          <header class="head">
-            <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
+            <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"/></a>
             <nav class="navegador">
-                <a href="Rentar.aspx">Home</a>
-                <a href="Favs.aspx">Tus Favoritos</a>
-                <a href="Lease.aspx">Renta</a>
-            </nav>
+                        <a href="Rentar.aspx">Home</a>
+                        <a href="Favs.aspx">Mis favoritos</a>
+                        <a href="Lease.aspx">Mis Propiedades</a>
+                        <a href="Home.aspx">Sign Out</a>
+                    </nav>
         </header>
         <div class="wrapper">
             <br />
