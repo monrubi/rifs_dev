@@ -41,13 +41,13 @@ namespace riffsApp
 
         protected void ib1_Click(object sender, ImageClickEventArgs e)
         {
-            Session["propiedad"] = prop1;
-            Response.Redirect("CuartoPagina.aspx");
+            //Session["propiedad"] = prop1;
+            Response.Redirect("Collage1.aspx");
         }
 
         protected void ib2_Click(object sender, ImageClickEventArgs e)
         {
-            Session["propiedad"] = prop2;
+            //Session["propiedad"] = prop2;
             Response.Redirect("CuartoPagina.aspx");
         }
 

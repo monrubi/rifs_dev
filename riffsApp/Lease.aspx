@@ -44,8 +44,8 @@
         <!-- Title -->
         <div class="section-heading has-text-centered">
           <h3 class="title is-2 ">Tus propiedades en renta</h3>&nbsp;
-          <h4 class="subtitle is-5 has-text-centered">Aquí aparaecerá toda la información de las propiedades que decidas poner en renta</h4>
-          <a class="button is-rounded is-centered is-primary" onclick="location.href='ModificarPropiedad.aspx'">Poner en renta</a>
+           <asp:ImageButton ID="ib1" runat="server" src="sources\propiedades\prop1.png" OnClick="ib1_Click" Height="300px" /> <br />
+           <asp:ImageButton ID="ib2" runat="server" src="sources\propiedades\prop2.png" OnClick="ib1_Click" Height="300px" /> <br />
         </div>
        </section>
     </div>

@@ -18,9 +18,9 @@ namespace riffsApp
         float espacio { get; set; }
         float precio { get; set; }
         float distancia { get; set; }
-
         string rutaImagen { get; set;}
         string rutaColage { get; set; }
+       
         //tendrá citas
         //List<Cita> citas;
 
