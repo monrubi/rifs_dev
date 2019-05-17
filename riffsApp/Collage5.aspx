@@ -24,7 +24,7 @@
         
         <div class="fondo wrapper">
             <div class="props">
-                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col1.png"  Height="300px" /> <br />
+                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col5.png"  Height="300px" /> <br />
                 <div class="divDesc">
                     <h3>Descripción</h3>
                     <p>Departamento para 1 o dos personas, se encuentra en el quito piso de un edificio con seguridad las 24 horas.

@@ -23,7 +23,7 @@
     
         <div class="fondo wrapper">
             <div class="props">
-                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col1.png"  Height="300px" /> <br />
+                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col2.png"  Height="300px" /> <br />
                 <div class="divDesc">
                     <h3>Descripción</h3>
                     <p class="descr">Se renta amplio cuarto cerca del ITAM.    

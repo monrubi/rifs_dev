@@ -23,7 +23,7 @@
     
         <div class="fondo wrapper">
             <div class="props">
-                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col1.png"  Height="300px" /> <br />
+                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col4.png"  Height="300px" /> <br />
                 <div class="divDesc">
                     <h3>Descripción</h3>
                     <p>Estudio amueblado con baño privado y walk-in closet. Se encuentra en un edificio con seguridad las 24 horas.
