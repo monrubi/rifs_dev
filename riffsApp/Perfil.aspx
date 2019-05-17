@@ -32,6 +32,10 @@
             <asp:Label ID="Label2" runat="server" Font-Bold="True" Text="Guadalupe Victoria" Font-Size="XX-Large"></asp:Label>
             <br />
             <br />
+			<asp:Label ID="Label7" runat="server" Text="Nombre de Usuario: " Font-Size="XX-Large"></asp:Label>
+			<asp:Label ID="Label8" runat="server" Font-Bold="True" Text="lupe" Font-Size="XX-Large"></asp:Label>
+			<br />
+            <br />
             <asp:Label ID="Label3" runat="server" Text="Contraseña: " Font-Size="XX-Large"></asp:Label>
             <asp:Label ID="Label4" runat="server" Font-Bold="True" Text="***" Font-Size="XX-Large"></asp:Label>
             <br />
