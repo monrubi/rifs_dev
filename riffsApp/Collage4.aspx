@@ -27,11 +27,11 @@
     
         <div class="fondo wrapper">
             <div class="props">
-                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col1.png"  Height="300px" /> <br />
+                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col4.png"/> <br />
                 <div class="divDesc">
-                    <h3>Descripción</h3>
-                    <p>Estudio amueblado con baño privado y walk-in closet. Se encuentra en un edificio con seguridad las 24 horas.
-                       El precio incluye todos los servicios de agua, luz, gas y wifi, también incluye limpieza del cuarto 2 veces por semana.
+                    <h3 align="left">Descripción</h3>
+                    <p>Estudio amueblado con baño privado y walk-in closet. Se encuentra en un edificio con seguridad las 24 horas.<br />
+                       El precio incluye todos los servicios de agua, luz, gas y wifi, también incluye limpieza del cuarto 2 veces por semana.<br />
                        No hay espacio de estacionamiento pero hay un estacionamiento público cerca.
                     </p>
                 </div>

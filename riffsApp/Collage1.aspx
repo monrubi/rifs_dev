@@ -27,12 +27,12 @@
     
         <div class="fondo wrapper">
             <div class="props">
-                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col1.png"  Height="300px" /> <br />
+                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col1.png"/> <br />
                 <div class="divDesc">
-                    <h3>Descripción</h3>
-                    <p class="descr">Se renta amplio cuarto cerca del ITAM.    
-                        El cuarto y la casa están completamente amueblados.                
-                        El precio incluye todos los servicios y limpieza una vez a la semana del cuarto y de las áreas comunes.
+                    <h3 align="left">Descripción</h3>
+                    <p class="descr">Se renta amplio cuarto cerca del ITAM.   
+                        El cuarto y la casa están completamente amueblados.<br />                
+                        El precio incluye todos los servicios y limpieza una vez a la semana del cuarto y de las áreas comunes.<br />
                         En el departamento viven 2 roomies muy tranquilos, las reuniones están permitidas solo es necesario que nos avisen con anticipación.
                     </p>
                 </div>
