@@ -17,7 +17,7 @@
             <nav class="navegador">
                 <a href="Rentar.aspx">Home</a>
                 <a href="Favs.aspx">Tus Favoritos</a>
-                <a href="Lease.aspx">Ofrece un cuarto</a>
+                <a href="Lease.aspx">Renta</a>
             </nav>
         </header>
         <div class="wrapper">
