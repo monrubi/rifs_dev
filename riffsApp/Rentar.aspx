@@ -67,7 +67,9 @@
                     <span class="icon is-large"><i class="fas fa-star"></i></span>   
                     </nav>
                   <br />
-                    <asp:ImageButton ID="favButton1" runat="server" Height="30px" ImageUrl="~/Models/favorito.png" OnClick="favButton1_Click" Width="30px" />
+                    <asp:ImageButton ID="favButton1" runat="server" Height="30px" ImageUrl="~/Models/favorito.png" Width="30px"/>
+                     OnClick="favButton1_Click" Width="30px"/>
+
                 </div>              
               </div>
             </div>
@@ -94,7 +96,8 @@
                       La renta incluye los sevicios de agua, gas y luz. Se comparte el depa con 2 estudiantes más.
                     </div>
                   <br />
-                    <asp:ImageButton ID="favButton2" runat="server" Height="30px" ImageUrl="~/Models/favorito.png" OnClick="favButton2_Click" Width="30px" />
+                    <asp:ImageButton ID="favButton2" runat="server" Height="30px" ImageUrl="~/Models/favorito.png" Width="30px" /> 
+                    OnClick="favButton2_Click" Width="30px" />
                 </div>              
               </div>
             </div>
@@ -121,7 +124,8 @@
                       Los servicios se dividen entre los roomies.
                     </div>
                   <br />
-                 <asp:ImageButton ID="favButton3" runat="server" Height="30px" ImageUrl="~/Models/favorito.png" OnClick="favButton3_Click" Width="30px" />
+                 <asp:ImageButton ID="favButton3" runat="server" Height="30px" ImageUrl="~/Models/favorito.png" Width="30px" />
+                     OnClick="favButton3_Click" Width="30px" />
                </div>              
               </div>
             </div>    
@@ -151,7 +155,8 @@
                       El departamento está amueblado y cuenta con espacio de estacionamiento
                     </div>
                   <br />
-                     <asp:ImageButton ID="favButton4" runat="server" Height="30px" ImageUrl="~/Models/favorito.png" OnClick="favButton4_Click" Width="30px" />
+                     <asp:ImageButton ID="favButton4" runat="server" Height="30px" ImageUrl="~/Models/favorito.png" Width="30px" />
+                     OnClick="favButton4_Click" Width="30px" />
                 </div>              
               </div>
             </div>
@@ -178,7 +183,8 @@
                       No se incluyen los servicios en la renta.Incluye un espacio de estacionamiento. Se piden dos meses de depósito
                     </div>
                   <br />
-                    <asp:ImageButton ID="favButton5" runat="server" Height="30px" ImageUrl="~/Models/favorito.png" OnClick="favButton5_Click" Width="30px" />
+                    <asp:ImageButton ID="favButton5" runat="server" Height="30px" ImageUrl="~/Models/favorito.png" Width="30px" />
+                     OnClick="favButton5_Click" Width="30px" />
                 </div>              
               </div>
             </div>
