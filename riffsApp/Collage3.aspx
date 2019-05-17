@@ -27,11 +27,11 @@
     
         <div class="fondo wrapper">
             <div class="props">
-                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col1.png"  Height="300px" /> <br />
+                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col3.png"/> <br />
                 <div class="divDesc">
-                    <h3>Descripción</h3>
-                    <p>Cuarto amueblado en renta con baño privado. Se puede hacer uso de la cocina y las áreas comunes de la casa como lo son la sala, el comedor y el jardín.
-                       El precio incluye todos los servicios de agua, luz, gas y wifi, también incluye limpieza del cuarto tres veces por semana.
+                    <h3 align="left">Descripción</h3>
+                    <p>Cuarto amueblado en renta con baño privado. Se puede hacer uso de la cocina y las áreas comunes de la casa como lo son la sala, el comedor y el jardín.<br />
+                       El precio incluye todos los servicios de agua, luz, gas y wifi, también incluye limpieza del cuarto tres veces por semana.<br />
                        Se puede usar el servicio de lavandería cuando sea necesario y le proporcionamos cambio de toallas una vez a la semana.
                     </p>
                 </div>

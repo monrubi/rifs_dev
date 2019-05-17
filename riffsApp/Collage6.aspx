@@ -27,11 +27,11 @@
     
             <div class="fondo wrapper">
                 <div class="props">
-                    <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col1.png"  Height="300px" /> <br />
+                    <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col6.png" /> <br />
                     <div class="divDesc">
-                        <h3>Descripción</h3>
-                        <p>Se renta amplio departamento compltamente amueblado.
-                           El edificio cuenta con seguridad y es muy tranquilo. Hay gimnasio, alberca y una terraza para eventos. 
+                        <h3 align="left">Descripción</h3>
+                        <p>Se renta amplio departamento compltamente amueblado.<br />
+                           El edificio cuenta con seguridad y es muy tranquilo. Hay gimnasio, alberca y una terraza para eventos. <br />
                            La cocina esta totalmente equipada y cada cuarto tiene su propio baño.
                         </p>
                     </div>
