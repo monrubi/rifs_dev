@@ -17,7 +17,7 @@
             <nav class="navegador">
                 <a href="Rentar.aspx">Home</a>
                 <a href="Favs.aspx">Tus Favoritos</a>
-                <a href="Lease.aspx">Ofrece un cuarto</a>
+                <a href="Lease.aspx">Renta</a>
             </nav>
         </header>
         <div class="wrapper">
@@ -37,7 +37,7 @@
             <br />
             <br />
             <asp:Label ID="Label5" runat="server" Text="Propiedades: " Font-Size="XX-Large"></asp:Label>
-            <asp:Label ID="Label6" runat="server" Text="0" Font-Bold="True" Font-Size="XX-Large"></asp:Label>
+            <asp:Label ID="Label6" runat="server" Text="2" Font-Bold="True" Font-Size="XX-Large"></asp:Label>
         </div>
     
          </form>
