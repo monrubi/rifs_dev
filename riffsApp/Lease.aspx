@@ -21,8 +21,10 @@
     <div class="fondo wrapper">
       <section class="section">
         <!-- Title -->
-        <div class="section-heading has-text-centered">
+        <div class="misProps">
+            <asp:ImageButton ID="btAgregar" runat="server" src="sources\boton.png" OnClick="agregar" Height="50px"/>
           <h3 align="center" class="title is-2 ">Tus propiedades en renta</h3>&nbsp;
+            
             <br />
             <asp:ImageButton ID="ImageButton1" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop1.png" Width="600px" />
             <br />

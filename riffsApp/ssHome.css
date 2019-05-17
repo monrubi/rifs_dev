@@ -21,6 +21,7 @@ header {
     margin: auto;
     overflow: hidden;
     height: 2793px;
+    text-align: center;
 }
 
 
@@ -127,5 +128,14 @@ div > p{
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+}
+
+.agregar{
+    margin:20px;
+}
+
+#btAgregar{
+    margin-top:30px;
+    margin-bottom: 30px;
 }
 
