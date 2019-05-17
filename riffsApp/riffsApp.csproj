@@ -90,6 +90,7 @@
     <Content Include="Images.Propiedades\Casa8.2.jpg" />
     <Content Include="Images.Propiedades\Casa9.1.jpg" />
     <Content Include="Images.Propiedades\Casa9.2.jpg" />
+    <Content Include="Images.Propiedades\lupita_vicky.jpg" />
     <Content Include="Lease.aspx" />
     <Content Include="LogIn.aspx" />
     <Content Include="ModificarPropiedad.aspx" />
