@@ -21,6 +21,7 @@ header {
     margin: auto;
     overflow: hidden;
     height: 2793px;
+    text-align: center;
 }
 
 
@@ -100,10 +101,11 @@ input{
     margin: 20px; 
 }
 .props {
-    width: 30%;
+    width: 40%;
     margin-left:auto;
     margin-right: auto;
     margin-top: 20px;
+    height: 2590px;
 }
 
 .props > div {
@@ -121,5 +123,20 @@ div > p{
 #ib1 {
     
     width: 100%;
+}
+
+.conAltas {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.agregar{
+    margin:20px;
+}
+
+#btAgregar{
+    margin-top:30px;
+    margin-bottom: 30px;
 }
 

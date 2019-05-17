@@ -11,37 +11,26 @@
 <body>
     <form id="form1" runat="server">
         <header class="head">
-            <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
+            <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"/></a>
             <nav class="navegador">
                 <a href="Rentar.aspx">Home</a>
-                <a href="Lease.aspx">Renta</a>
+                <a href="Lease.aspx">Mis propiedades</a>
                 <a href="Perfil.aspx"><img class="carita" src="sources\carita.svg" alt="Mi Cuenta"/>Mi Cuenta</a>
+                <a href="Home.aspx">Sign Out</a>
             </nav>
         </header>
          <div class="fondo wrapper">
-        <h4 align="center">¡Favoritos!<br />Revisa las propiedades que has guardado para ver después </h4><br />
+        <h4 align="center">Tus propiedades guardadas como favoritos</h4><br />
             <div class="props">
-                <asp:ImageButton ID="ib1" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop1.png" OnClick = "ib1_Click" Visible="False" Width="610px" />
+                <asp:ImageButton ID="ib1" runat="server" src="sources\propiedades\prop1.png" OnClick="ib1_Click" Height="300px" Visible="False" />
                 <br />
+                <asp:ImageButton ID="ib2" runat="server" src="sources\propiedades\prop2.png" OnClick="ib2_Click" Height="300px" Visible="False" />
                 <br />
+                <asp:ImageButton ID="ib3" runat="server" src="sources\propiedades\prop3.png" OnClick="ib3_Click" Height="300px" Visible="False" />
                 <br />
-                <asp:ImageButton ID="ib2" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop2.png" OnClick="ib2_Click" Visible="False" Width="610px" />
+                <asp:ImageButton ID="ib4" runat="server" src="sources\propiedades\prop4.png" OnClick="ib4_Click" Height="300px" Visible="False" />
                 <br />
-                <br />
-                <br />
-                <asp:ImageButton ID="ib3" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop3.png" OnClick="ib3_Click" Visible="False" Width="610px" />
-                <br />
-                <br />
-                <br />
-                <asp:ImageButton ID="ib4" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop4.png" OnClick="ib4_Click" Visible="False" Width="610px" />
-                <br />
-                <br />
-                <br />
-                <asp:ImageButton ID="ib5" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop5.png" OnClick="ib5_Click" Visible="False" Width="610px" />
-                <br />
-                <br />
-                <br />
-                <asp:ImageButton ID="ib6" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop6.png" OnClick="ib6_Click" Visible="False" Width="610px" />
+                <asp:ImageButton ID="ib5" runat="server" src="sources\propiedades\prop5.png" OnClick="ib5_Click" Height="300px" Visible="False" />
                 <br />
              </div> 
         </div>

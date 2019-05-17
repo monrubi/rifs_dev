@@ -42,14 +42,39 @@ namespace riffsApp
 
         protected void ib1_Click(object sender, ImageClickEventArgs e)
         {
-            Session["propiedad"] = prop1;
-            Response.Redirect("CuartoPagina.aspx");
+            //Session["propiedad"] = prop1;
+            Response.Redirect("Collage1.aspx");
         }
 
         protected void ib2_Click(object sender, ImageClickEventArgs e)
         {
-            Session["propiedad"] = prop2;
-            Response.Redirect("CuartoPagina.aspx");
+            //Session["propiedad"] = prop2;
+            Response.Redirect("Collage2.aspx");
+        }
+
+
+        protected void ib3_Click(object sender, ImageClickEventArgs e)
+        {
+            //Session["propiedad"] = prop3;
+            Response.Redirect("Collage3.aspx");
+        }
+
+        protected void ib4_Click(object sender, ImageClickEventArgs e)
+        {
+            //Session["propiedad"] = prop4;
+            Response.Redirect("Collage4.aspx");
+        }
+
+        protected void ib5_Click(object sender, ImageClickEventArgs e)
+        {
+            //Session["propiedad"] = prop5;
+            Response.Redirect("Collage5.aspx");
+        }
+
+        protected void ib6_Click(object sender, ImageClickEventArgs e)
+        {
+            //Session["propiedad"] = prop6;
+            Response.Redirect("Collage6.aspx");
         }
 
         protected void favButton1_Click(object sender, ImageClickEventArgs e)
@@ -57,17 +82,16 @@ namespace riffsApp
             Session["fav1"] = true;
         }
 
-
         protected void favButton2_Click(object sender, ImageClickEventArgs e)
         {
             Session["fav2"] = true;
         }
 
-
         protected void favButton3_Click(object sender, ImageClickEventArgs e)
         {
             Session["fav3"] = true;
         }
+
         protected void favButton4_Click(object sender, ImageClickEventArgs e)
         {
             Session["fav4"] = true;
@@ -76,32 +100,6 @@ namespace riffsApp
         protected void favButton5_Click(object sender, ImageClickEventArgs e)
         {
             Session["fav5"] = true;
-        }
-
-
-
-        protected void ib3_Click(object sender, ImageClickEventArgs e)
-        {
-            Session["propiedad"] = prop3;
-            Response.Redirect("CuartoPagina.aspx");
-        }
-
-        protected void ib4_Click(object sender, ImageClickEventArgs e)
-        {
-            Session["propiedad"] = prop4;
-            Response.Redirect("CuartoPagina.aspx");
-        }
-
-        protected void ib5_Click(object sender, ImageClickEventArgs e)
-        {
-            Session["propiedad"] = prop5;
-            Response.Redirect("CuartoPagina.aspx");
-        }
-
-        protected void ib6_Click(object sender, ImageClickEventArgs e)
-        {
-            Session["propiedad"] = prop6;
-            Response.Redirect("CuartoPagina.aspx");
         }
 
     }
