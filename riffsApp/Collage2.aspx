@@ -27,12 +27,12 @@
     
         <div class="fondo wrapper">
             <div class="props">
-                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col1.png"  Height="300px" /> <br />
+                <asp:ImageButton ID="ib1" runat="server" src="sources/colages/col2.png"/> <br />
                 <div class="divDesc">
-                    <h3>Descripción</h3>
+                    <h3 align="left">Descripción</h3>
                     <p class="descr">Se renta amplio cuarto cerca del ITAM.    
-                        Se renta un cuarto en una casa cerca al ITAM.
-                        Se busca una persona tranquila, no hay horario de llegada pero para no molestar a los demás residentes no se permite hacer ruido después de las 10 pm.
+                        Se renta un cuarto en una casa cerca al ITAM.<br />
+                        Se busca una persona tranquila, no hay horario de llegada pero para no molestar a los demás residentes no se permite hacer ruido después de las 10 pm.<br />
                         La renta ya incluye los servicios y la limpieza una vez por semana.
                     </p>
                 </div>
