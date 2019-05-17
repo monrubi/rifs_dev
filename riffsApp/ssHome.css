@@ -123,3 +123,9 @@ div > p{
     width: 100%;
 }
 
+.conAltas {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+

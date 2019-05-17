@@ -105,6 +105,11 @@
     <Content Include="Rentar.aspx" />
     <Content Include="sources\carita.svg" />
     <Content Include="sources\colages\col1.png" />
+    <Content Include="sources\colages\col2.png" />
+    <Content Include="sources\colages\col3.png" />
+    <Content Include="sources\colages\col4.png" />
+    <Content Include="sources\colages\col5.png" />
+    <Content Include="sources\colages\col6.png" />
     <Content Include="sources\logo1.svg" />
     <Content Include="sources\logo2.svg" />
     <Content Include="sources\propiedades\prop1.png" />
@@ -248,10 +253,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-
-    <Folder Include="Models\" />
-    <Folder Include="sources\colages\" />
-
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
