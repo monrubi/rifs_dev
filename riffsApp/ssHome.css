@@ -79,9 +79,6 @@ header nav a:hover {
     padding-left: 6px;
 }
 
-input{
-    height: 25px;
-}
 
 .log .child{
     text-align:right;
@@ -167,3 +164,18 @@ div > p{
     border-radius: 30px;
 }
 
+.tbx{
+    margin: 0px;
+}
+.lbl{
+    margin-top:-4px;
+    font-size:14pt;
+}
+
+.search{
+    text-align:left
+}
+
+.btBuscar{
+    text-align:right;
+}

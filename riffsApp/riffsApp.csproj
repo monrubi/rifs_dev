@@ -105,6 +105,7 @@
     <Content Include="Perfil.aspx" />
     <Content Include="Rentar.aspx" />
     <Content Include="sources\boton.png" />
+    <Content Include="sources\buscar.png" />
     <Content Include="sources\carita.svg" />
     <Content Include="sources\colages\col1.png" />
     <Content Include="sources\colages\col2.png" />
