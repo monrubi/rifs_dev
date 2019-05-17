@@ -35,6 +35,38 @@ namespace riffsApp
             {
                 ib5.Visible = true;
             }
+
+
+        }
+
+        protected void ib1_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("CuartoPagina.aspx");
+        }
+
+        protected void ib2_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("CuartoPagina.aspx");
+        }
+
+        protected void ib3_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("CuartoPagina.aspx");
+        }
+
+        protected void ib4_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("CuartoPagina.aspx");
+        }
+
+        protected void ib5_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("CuartoPagina.aspx");
+        }
+
+        protected void ib6_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("CuartoPagina.aspx");
         }
     }
 }

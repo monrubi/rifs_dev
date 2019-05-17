@@ -19,17 +19,29 @@
             </nav>
         </header>
          <div class="fondo wrapper">
-        <h4 align="center">¡Regístrate!<br />Podrás ver datos del inmueble, guardar tus favoritos y ofrecer tu propio espacio </h4><br />
-            <div class="props" width="100%">
-                <asp:ImageButton ID="ib1" runat="server" src="sources\propiedades\prop1.png" OnClick="ib1_Click" Height="300px" Visible="False" />
+        <h4 align="center">¡Favoritos!<br />Revisa las propiedades que has guardado para ver después </h4><br />
+            <div class="props">
+                <asp:ImageButton ID="ib1" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop1.png" OnClick = "ib1_Click" Visible="False" Width="610px" />
                 <br />
-                <asp:ImageButton ID="ib2" runat="server" src="sources\propiedades\prop2.png" OnClick="ib2_Click" Height="300px" Visible="False" />
                 <br />
-                <asp:ImageButton ID="ib3" runat="server" src="sources\propiedades\prop3.png" OnClick="ib3_Click" Height="300px" Visible="False" />
                 <br />
-                <asp:ImageButton ID="ib4" runat="server" src="sources\propiedades\prop4.png" OnClick="ib4_Click" Height="300px" Visible="False" />
+                <asp:ImageButton ID="ib2" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop2.png" OnClick="ib2_Click" Visible="False" Width="610px" />
                 <br />
-                <asp:ImageButton ID="ib5" runat="server" src="sources\propiedades\prop5.png" OnClick="ib5_Click" Height="300px" Visible="False" />
+                <br />
+                <br />
+                <asp:ImageButton ID="ib3" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop3.png" OnClick="ib3_Click" Visible="False" Width="610px" />
+                <br />
+                <br />
+                <br />
+                <asp:ImageButton ID="ib4" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop4.png" OnClick="ib4_Click" Visible="False" Width="610px" />
+                <br />
+                <br />
+                <br />
+                <asp:ImageButton ID="ib5" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop5.png" OnClick="ib5_Click" Visible="False" Width="610px" />
+                <br />
+                <br />
+                <br />
+                <asp:ImageButton ID="ib6" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop6.png" OnClick="ib6_Click" Visible="False" Width="610px" />
                 <br />
              </div> 
         </div>
