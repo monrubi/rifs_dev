@@ -35,7 +35,7 @@ namespace riffsApp
             precio = _precio;
             distancia = _dist;
             rutaImagen = _rutaImagen;
-            _descripcion = descripcion;
+            //_descripcion = descripcion;
            // rutaColage = _rutaColage;
 
         }

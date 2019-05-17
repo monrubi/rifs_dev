@@ -26,12 +26,12 @@ namespace riffsApp
         private void crear_props()
         {
 
-            prop1 = new Propiedad("Yucatán 44, Col. Progreso San Ángel. Del. Álvaro Obregón.",new List<string>(), true, false, 4300, 12, 8, "source\\propiedades\\prop1.png", "source\\colages\\col1.png");
-            prop2 = new Propiedad("Guerrero 126, Col. Progreso San Ángel. Del. Álvaro Obregón.", new List<string>(), true, false, 7900, 18, 10, "source\\propiedades\\prop2.png", "source\\colages\\col2.png");
-            prop3 = new Propiedad("Puebla 14, Col. Progreso San Ángel. Del. Álvaro Obregón.", new List<string>(), true, false, 18300, 17, 6, "source\\propiedades\\prop3.png", "source\\colages\\col3.png");
-            prop4 = new Propiedad("Hermenegildo Galeana 23, Col. Altavista. Del. Álvaro Obregón.", new List<string>(), true, false, 11800, 14, 12, "source\\propiedades\\prop4.png", "source\\colages\\col4.png");
-            prop5 = new Propiedad("Avenida Las Flores 451, Col. Atlamaya. Del. Álvaro Obregón.", new List<string>(), true, true, 21500, 45, 20, "source\\propiedades\\prop5.png", "source\\colages\\col5.png");
-            prop6 = new Propiedad("Avenida Paseo del Río 1023, Col. Chimalistac. Del. Benito Juárez.", new List<string>(), true, true, 17800, 57, 25, "source\\propiedades\\prop6.png", "source\\colages\\col6.png");
+            prop1 = new Propiedad("Yucatán 44, Col. Progreso San Ángel. Del. Álvaro Obregón.", true, false, 4300, 12, 8, "source\\propiedades\\prop1.png", "source\\colages\\col1.png");
+            prop2 = new Propiedad("Guerrero 126, Col. Progreso San Ángel. Del. Álvaro Obregón.", true, false, 7900, 18, 10, "source\\propiedades\\prop2.png", "source\\colages\\col2.png");
+            prop3 = new Propiedad("Puebla 14, Col. Progreso San Ángel. Del. Álvaro Obregón.", true, false, 18300, 17, 6, "source\\propiedades\\prop3.png", "source\\colages\\col3.png");
+            prop4 = new Propiedad("Hermenegildo Galeana 23, Col. Altavista. Del. Álvaro Obregón.", true, false, 11800, 14, 12, "source\\propiedades\\prop4.png", "source\\colages\\col4.png");
+            prop5 = new Propiedad("Avenida Las Flores 451, Col. Atlamaya. Del. Álvaro Obregón.", true, true, 21500, 45, 20, "source\\propiedades\\prop5.png", "source\\colages\\col5.png");
+            prop6 = new Propiedad("Avenida Paseo del Río 1023, Col. Chimalistac. Del. Benito Juárez.", true, true, 17800, 57, 25, "source\\propiedades\\prop6.png", "source\\colages\\col6.png");
             propiedades.Add(prop1);
             propiedades.Add(prop2);
             propiedades.Add(prop3);
