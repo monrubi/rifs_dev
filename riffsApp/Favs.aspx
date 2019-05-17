@@ -31,7 +31,6 @@
                 <br />
                 <asp:ImageButton ID="ib5" runat="server" src="sources\propiedades\prop5.png" OnClick="ib5_Click" Height="300px" Visible="False" />
                 <br />
-                <asp:ImageButton ID="ib6" runat="server" src="sources\propiedades\prop6.png" OnClick="ib6_Click" Height="300px" Visible="False" />
              </div> 
         </div>
     </form>

@@ -31,6 +31,7 @@
     </script>
 </head>
 <body>
+        <form id="form1" runat="server">
         <header class="head">
             <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
             <nav class="navegador">
@@ -44,10 +45,14 @@
         <!-- Title -->
         <div class="section-heading has-text-centered">
           <h3 class="title is-2 ">Tus propiedades en renta</h3>&nbsp;
-          <h4 class="subtitle is-5 has-text-centered">Aquí aparaecerá toda la información de las propiedades que decidas poner en renta</h4>
-          <a class="button is-rounded is-centered is-primary" onclick="location.href='ModificarPropiedad.aspx'">Poner en renta</a>
+            <br />
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop1.png" Width="600px" />
+            <br />
+            <asp:ImageButton ID="ImageButton2" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop2.png" Width="600px" />
+            <br />
         </div>
        </section>
     </div>
+        </form>
 </body>
 </html>
