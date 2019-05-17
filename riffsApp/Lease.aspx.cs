@@ -25,5 +25,11 @@ namespace riffsApp
             Response.Redirect("ModificarPropiedad.aspx");
 
         }
+
+        protected void ib1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EditarPropiedad.aspx");
+
+        }
     }
 }

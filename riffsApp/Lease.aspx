@@ -25,8 +25,8 @@
             <asp:ImageButton ID="btAgregar" runat="server" src="sources\boton.png" OnClick="agregar" Height="50px"/>
           <h4 align="center" class="title is-2 ">Tus propiedades en renta</h4>&nbsp;
             <div class ="props">
-                <asp:ImageButton ID="ib1" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop1.png" Width="600px" />
-                <asp:ImageButton ID="ib2" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop2.png" Width="600px" />
+                <asp:ImageButton ID="ib1" runat="server" src="sources/propiedades/miProp1.png" OnClick="ib1_Click" Height="300px" />
+                <asp:ImageButton ID="ib2" runat="server" src="sources/propiedades/miProp2.png" OnClick="ib1_Click" Height="300px" />
             </div>
         </div>
        </section>

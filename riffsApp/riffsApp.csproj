@@ -112,9 +112,12 @@
     <Content Include="sources\colages\col4.png" />
     <Content Include="sources\colages\col5.png" />
     <Content Include="sources\colages\col6.png" />
+    <Content Include="sources\fondo.jpg" />
     <Content Include="sources\gatos.jpg" />
     <Content Include="sources\logo1.svg" />
     <Content Include="sources\logo2.svg" />
+    <Content Include="sources\propiedades\miProp1.png" />
+    <Content Include="sources\propiedades\miProp2.png" />
     <Content Include="sources\propiedades\prop1.png" />
     <Content Include="sources\propiedades\prop2.png" />
     <Content Include="sources\propiedades\prop3.png" />
