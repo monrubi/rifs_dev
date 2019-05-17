@@ -101,18 +101,20 @@ input{
     margin: 20px; 
 }
 .props {
-    width: 40%;
+    width: 60%;
     margin-left:auto;
     margin-right: auto;
     margin-top: 20px;
-    height: 2590px;
+    text-align:center;
 }
 
 .props > div {
     background-color: white;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 20px;
+    border-radius: 25px;
+    color:#027f6a;
 }
 
 div > p{
@@ -121,8 +123,8 @@ div > p{
 }
 
 #ib1 {
+    height:600px;
     
-    width: 100%;
 }
 
 .conAltas {
@@ -139,4 +141,5 @@ div > p{
     margin-top:30px;
     margin-bottom: 30px;
 }
+
 
