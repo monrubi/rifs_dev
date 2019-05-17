@@ -21,6 +21,7 @@ namespace riffsApp
         string descripcion { get; set; }
 
         string rutaImagen { get; set;}
+        string rutaColage { get; set; }
         //tendrá citas
         //List<Cita> citas;
 
@@ -30,19 +31,24 @@ namespace riffsApp
             direccion = _direccion;
             amueblado = _amueblado;
             transporte = _transporte;
-            servicios = _serv;
+            servicios = new List<string>();
             espacio = _espacio;
             precio = _precio;
             distancia = _dist;
             rutaImagen = _rutaImagen;
             _descripcion = descripcion;
-            clave = generateClave();
+            rutaColage = _rutaColage;
         }
 
         private int generateClave()
         {
             //por ahora da 1 pero en cuanto esté la base se creará conforme esta
             return clave++;
+        }
+
+        public void agrega_servicio(String _servicio)
+        {
+            servicios.Add(_servicio);
         }
 
 
