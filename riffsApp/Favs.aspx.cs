@@ -36,6 +36,10 @@ namespace riffsApp
                 ib5.Visible = true;
             }
 
+            if (Session["fav6"].Equals(true))
+            {
+                ib6.Visible = true;
+            }
 
         }
 

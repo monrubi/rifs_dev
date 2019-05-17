@@ -13,11 +13,19 @@ namespace riffsApp
         Propiedad prop1, prop2, prop3, prop4, prop5, prop6;
         List<Propiedad> propiedades;
 
+        
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
                 Session["pagina"] = "rentar";
+                Session["fav1"] = false;
+                Session["fav2"] = false;
+                Session["fav3"] = false;
+                Session["fav4"] = false;
+                Session["fav5"] = false;
+                Session["fav6"] = false;
                 propiedades = new List<Propiedad>();
                 crear_props();
             }
@@ -77,29 +85,34 @@ namespace riffsApp
             Response.Redirect("Collage6.aspx");
         }
 
-        protected void favButton1_Click(object sender, ImageClickEventArgs e)
+        protected void fb1_Click(object sender, ImageClickEventArgs e)
         {
             Session["fav1"] = true;
         }
 
-        protected void favButton2_Click(object sender, ImageClickEventArgs e)
+        protected void fb2_Click(object sender, ImageClickEventArgs e)
         {
             Session["fav2"] = true;
         }
 
-        protected void favButton3_Click(object sender, ImageClickEventArgs e)
+        protected void fb3_Click(object sender, ImageClickEventArgs e)
         {
             Session["fav3"] = true;
         }
 
-        protected void favButton4_Click(object sender, ImageClickEventArgs e)
+        protected void fb4_Click(object sender, ImageClickEventArgs e)
         {
             Session["fav4"] = true;
         }
 
-        protected void favButton5_Click(object sender, ImageClickEventArgs e)
+        protected void fb5_Click(object sender, ImageClickEventArgs e)
         {
             Session["fav5"] = true;
+        }
+
+        protected void fb6_Click(object sender, ImageClickEventArgs e)
+        {
+            Session["fav6"] = true;
         }
 
     }
