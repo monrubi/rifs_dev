@@ -26,9 +26,9 @@
           <h3 align="center" class="title is-2 ">Tus propiedades en renta</h3>&nbsp;
             
             <br />
-            <asp:ImageButton ID="ImageButton1" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop1.png" Width="600px" />
+            <asp:ImageButton ID="ib1" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop1.png" Width="600px" />
             <br />
-            <asp:ImageButton ID="ImageButton2" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop2.png" Width="600px" />
+            <asp:ImageButton ID="ib2" runat="server" Height="300px" ImageUrl="~/sources/propiedades/prop2.png" Width="600px" />
             <br />
         </div>
        </section>
