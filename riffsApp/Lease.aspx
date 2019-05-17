@@ -34,8 +34,8 @@
         <header class="head">
             <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
             <nav class="navegador">
-                <a href="Rentar.aspx">Home</a>
-                <a href="Favs.aspx">Mis Favoritos</a>
+                <a href="Rentar.aspx">Renta</a>
+                <a href="Favs.aspx">Mis Propiedades</a>
                 <a href="Perfil.aspx"><img class="carita" src="sources\carita.svg" alt="Mi Cuenta">Mi Cuenta</a>
             </nav>
         </header>  

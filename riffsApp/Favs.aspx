@@ -14,12 +14,25 @@
             <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
             <nav class="navegador">
                 <a href="Rentar.aspx">Home</a>
-                <a href="Lease.aspx">Ofrece un cuarto</a>
+                <a href="Lease.aspx">Renta</a>
                 <a href="Perfil.aspx"><img class="carita" src="sources\carita.svg" alt="Mi Cuenta"/>Mi Cuenta</a>
             </nav>
         </header>
-        <div class="fondo wrapper">
-            <h2>Propiedades guardadas</h2>
+         <div class="fondo wrapper">
+        <h4 align="center">¡Regístrate!<br />Podrás ver datos del inmueble, guardar tus favoritos y ofrecer tu propio espacio </h4><br />
+            <div class="props" width="100%">
+                <asp:ImageButton ID="ib1" runat="server" src="sources\propiedades\prop1.png" OnClick="ib1_Click" Height="300px" Visible="False" />
+                <br />
+                <asp:ImageButton ID="ib2" runat="server" src="sources\propiedades\prop2.png" OnClick="ib2_Click" Height="300px" Visible="False" />
+                <br />
+                <asp:ImageButton ID="ib3" runat="server" src="sources\propiedades\prop3.png" OnClick="ib3_Click" Height="300px" Visible="False" />
+                <br />
+                <asp:ImageButton ID="ib4" runat="server" src="sources\propiedades\prop4.png" OnClick="ib4_Click" Height="300px" Visible="False" />
+                <br />
+                <asp:ImageButton ID="ib5" runat="server" src="sources\propiedades\prop5.png" OnClick="ib5_Click" Height="300px" Visible="False" />
+                <br />
+                <asp:ImageButton ID="ib6" runat="server" src="sources\propiedades\prop6.png" OnClick="ib6_Click" Height="300px" Visible="False" />
+             </div> 
         </div>
     </form>
 </body>

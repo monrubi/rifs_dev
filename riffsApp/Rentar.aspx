@@ -18,6 +18,7 @@
                     <nav class="navegador">
                         <a href="LogIn.aspx">Log In</a>
                     </nav>
+
             </header>
 
     
@@ -31,6 +32,7 @@
                 <asp:ImageButton ID="ib5" runat="server" src="sources\propiedades\prop5.png" OnClick="ib1_Click" Height="300px" /> <br />
                 <asp:ImageButton ID="ib6" runat="server" src="sources\propiedades\prop6.png" OnClick="ib1_Click" Height="300px" /> 
             </div> 
+
         </div>
         </form>
     </body>
