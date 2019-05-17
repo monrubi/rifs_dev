@@ -22,8 +22,8 @@
         </header>
         <div class="wrapper">
             <br />
-            <h2>Perfil del usuario
-            </h2>
+            <h4>Perfil del usuario
+            </h4>
             <br />
             <asp:Image ID="Image1" runat="server"  src=Images.Propiedades\lupita_vicky.jpg Height="400px"/>
             <br />

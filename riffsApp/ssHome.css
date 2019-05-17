@@ -24,6 +24,14 @@ header {
     text-align: center;
 }
 
+h4 {
+    color: #027f6a;
+    font-size:22pt;
+    background-color: white;
+    border-radius:20px;
+    margin-top:25px;
+}
+
 
 header .logo {
     float: left;
@@ -142,4 +150,11 @@ div > p{
     margin-bottom: 30px;
 }
 
+.props * {
+    margin: 20px;
+}
+
+.gatos{
+    border-radius: 30px;
+}
 
