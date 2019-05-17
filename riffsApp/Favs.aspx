@@ -11,16 +11,17 @@
 <body>
     <form id="form1" runat="server">
         <header class="head">
-            <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
+            <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"/></a>
             <nav class="navegador">
                 <a href="Rentar.aspx">Home</a>
-                <a href="Lease.aspx">Renta</a>
+                <a href="Lease.aspx">Mis propiedades</a>
                 <a href="Perfil.aspx"><img class="carita" src="sources\carita.svg" alt="Mi Cuenta"/>Mi Cuenta</a>
+                <a href="Home.aspx">Sign Out</a>
             </nav>
         </header>
          <div class="fondo wrapper">
-        <h4 align="center">¡Regístrate!<br />Podrás ver datos del inmueble, guardar tus favoritos y ofrecer tu propio espacio </h4><br />
-            <div class="props" width="100%">
+        <h4 align="center">Tus propiedades guardadas como favoritos</h4><br />
+            <div class="props">
                 <asp:ImageButton ID="ib1" runat="server" src="sources\propiedades\prop1.png" OnClick="ib1_Click" Height="300px" Visible="False" />
                 <br />
                 <asp:ImageButton ID="ib2" runat="server" src="sources\propiedades\prop2.png" OnClick="ib2_Click" Height="300px" Visible="False" />

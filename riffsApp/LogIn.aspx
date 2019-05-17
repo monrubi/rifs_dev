@@ -2,37 +2,14 @@
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<html lang="en">
-
-<head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Log in de la página</title>
     <link rel="stylesheet" href="ssHome.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles/debug.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/0.53.1/mapbox-gl.css">
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
-    <script type="text/javascript" src="script.js"></script>
-    <title>RIFS</title>
-    <script>
-        function activeModal(accion) {
-            var modal = document.getElementById(accion);
-            if (!modal.classList.contains("is-active")) {
-                modal.classList.add("is-active");
-            } else {
-                modal.classList.remove("is-active");
-            }
-        }
-    </script>
 </head>
 <body>
         <header class="head">
-            <a href="Home.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
+            <a href="Home.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"/></a>
             <nav class="navegador">
                 <a href="Home.aspx">Home</a>
             </nav>

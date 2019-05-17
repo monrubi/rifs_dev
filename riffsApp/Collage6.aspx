@@ -14,9 +14,13 @@
     <body runat="server"> 
         <form id="form1" runat="server">
             <header class="head">
-                    <a href="Home.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"></a>
+                    <a href="Rentar.aspx"><img class="logo" src="sources\logo1.svg" alt="Home"/></a>
                     <nav class="navegador">
-                        <a href="LogIn.aspx">Log In</a>
+                        <a href="Rentar.aspx">Home</a>
+                        <a href="Favs.aspx">Mis favoritos</a>
+                        <a href="Lease.aspx">Mis Propiedades</a>
+                        <a href="Perfil.aspx"><img class="carita" src="sources\carita.svg" alt="Mi Cuenta"/>Mi Cuenta</a>
+                        <a href="Home.aspx">Sign Out</a>
                     </nav>
             </header>
 
