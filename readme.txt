@@ -12,6 +12,7 @@ Para probar el proyecto los pasos a realizar son los siguientes:
     para agregar propiedad.
 9.- Si uno selecciona el botón de agregar nueva propiedad se abrirá una ventana con los espacios para llenar los datos relevantes asociados
     a una propiedad.
+10.- Si uno da clic en el botón sign out del header, se cierra la sesión y se regresa a la página home sin sesiones abiertas 
 
 Indicaciones especiales:
 -Los filtros de precio y distancia solo aceptan numeros, en caso de poner otro tipo de caracter va a tronar.
